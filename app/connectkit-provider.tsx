@@ -4,7 +4,7 @@ import { ConnectKitProvider, ConnectKitButton, getDefaultConfig } from 'connectk
 const config = createConfig(
   getDefaultConfig({
     // API keys
-    alchemyId: process.env.INFURA_ID,
+    infuraId: process.env.INFURA_ID,
     walletConnectProjectId: process.env.WALLETCONNECT_PROJECT_ID || '',
 
     // App info
